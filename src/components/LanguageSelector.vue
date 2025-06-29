@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<Props>(), {
   isScrolled: false
 })
 
-const { t, setLanguage, currentLang } = useTranslation()
+const { setLanguage, currentLang } = useTranslation()
 const isOpen = ref(false)
 
 const languages = [
