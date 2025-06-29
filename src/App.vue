@@ -5,8 +5,8 @@ import FeaturesSection from './components/FeaturesSection.vue'
 import StatsSection from './components/StatsSection.vue'
 import Footer from './components/Footer.vue'
 import { useTranslation } from './composables/useTranslation'
-
 const { t } = useTranslation()
+
 </script>
 
 <template>
